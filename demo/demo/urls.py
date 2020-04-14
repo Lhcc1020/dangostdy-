@@ -23,4 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'users/', include('users.urls')),
     path(r'', include('reqdemo.urls')),
+    path(r'', include('cookdemo.urls')),
+    path(r'', include('sessiondemo.urls')),
+    path(r'', include('classdemo.urls')),
 ]

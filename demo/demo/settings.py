@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'reqdemo',
+    'cookdemo',
+    'sessiondemo',
+    'classdemo',
 ]
 
 MIDDLEWARE = [

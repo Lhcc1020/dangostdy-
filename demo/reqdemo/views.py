@@ -1,7 +1,7 @@
 import json
 
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 
 # 查询字符串传参
@@ -43,3 +43,9 @@ def get_json(request):
     print(a)
     print(b)
     return HttpResponse('get_body')
+
+
+# 重定向
+def ref(request):
+
+    return redirect('/users/index/')
